@@ -1,6 +1,6 @@
 import os
 os.environ["OPENAI_API_KEY"] = ""
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://labuser15-openai-0015.openai.azure.com/"
+os.environ["AZURE_OPENAI_ENDPOINT"] = ""
 os.environ["OPENAI_API_TYPE"] = "azure"
 os.environ["OPENAI_API_VERSION"] = "2023-05-15"
 
@@ -8,7 +8,7 @@ import requests
 
 # Azure Computer Vision API 설정
 SUBSCRIPTION_KEY = ""
-ENDPOINT = "https://labuser15-cv-0001.cognitiveservices.azure.com/"
+ENDPOINT = ""
 
 from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import AzureChatOpenAI
